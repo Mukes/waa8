@@ -6,7 +6,7 @@ import lombok.Setter;
 /**
  * Created by 985552 on 5/16/2017.
  */
-public class FriendlyMatch {
+public class FriendlyMatch extends Match{
     @Getter
     @Setter
     private AwardType awardType;
